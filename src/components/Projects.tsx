@@ -14,10 +14,10 @@ export function Projects() {
     {
       title: "Ufit",
       description:
-        "Aplicativo de exercícios desenvolvido para despositivos Android",
+        "o Ufit é um aplicativo que exibe uma variedade de exercícios físicos e programas de treinamento para usuários de diferentes níveis de aptidão física.",
       image:
-        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-      link: "#",
+        "https://images.unsplash.com/photo-1521805103424-d8f8430e8933?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      link: "https://play.google.com/store/apps/details?id=com.app.ufit",
       colSpan: "col-span-1 md:col-span-2",
     },
     {
