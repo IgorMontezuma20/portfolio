@@ -10,17 +10,17 @@ export function Skills() {
   const skills = [
     {
       name: "HTML5/CSS3",
-      icon: "images/html.svg",
+      icon: "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
       level: 95,
     },
     {
       name: "JavaScript",
-      icon: "images/javascript.svg",
+      icon: "https://upload.vectorlogo.zone/logos/javascript/images/239ec8a4-163e-4792-83b6-3f6d96911757.svg",
       level: 90,
     },
     {
       name: "Node.Js",
-      icon: "images/nodejs.svg",
+      icon: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
       level: 70,
     },
     {
@@ -29,13 +29,23 @@ export function Skills() {
       level: 60,
     },
     {
+      name: "Nest.Js",
+      icon: "https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg",
+      level: 70,
+    },
+    {
       name: "Java",
-      icon: "images/java-icon.svg",
+      icon: "https://www.vectorlogo.zone/logos/java/java-icon.svg",
       level: 80,
     },
     {
+      name: "Spring Boot",
+      icon: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+      level: 70,
+    },
+    {
       name: "Android",
-      icon: "images/android.svg",
+      icon: "https://www.vectorlogo.zone/logos/android/android-official.svg",
       level: 80,
     },
   ];
