@@ -1,7 +1,18 @@
-export function Footer() {
+export default function Footer() {
   return (
-    <>
-      <h2 className="text-4xl underline font-bold">Footer Test</h2>
-    </>
+    <div className="container mx-auto flex max-w-4xl p-4 font-headline text-sm">
+      <p className="flex-grow">
+        &copy; {new Date().getFullYear()} &middot; Todos os direitos reservados.
+      </p>
+      <ul className="flex flex-nowrap font-headline gap-2">
+        <li>
+          <a href="#">Termos de uso</a>
+        </li>
+        <li className="font-headline text-gray-500">&middot;</li>
+        <li>
+          <a href="#">Política de privacidade</a>
+        </li>
+      </ul>
+    </div>
   );
 }
