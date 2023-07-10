@@ -25,7 +25,7 @@ export function Skills() {
     },
     {
       name: "React.Js",
-      icon: "images/react.svg",
+      icon: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
       level: 60,
     },
     {
