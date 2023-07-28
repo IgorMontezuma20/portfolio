@@ -1,4 +1,5 @@
 import { HiArrowTopRightOnSquare } from "react-icons/hi2";
+import projectPhoto from "../img/Food Commerce.png";
 
 export function Projects() {
   const projects = [
@@ -26,6 +27,14 @@ export function Projects() {
       image:
         "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
       link: "#",
+      colSpan: "col-span-1",
+    },
+    {
+      title: "Food Commerce",
+      description: "Aplicativo de pedidos online construído com ReactJs e NodeJS",
+      image:
+      "https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80",
+      link: "https://github.com/IgorMontezuma20/food-commerce-react",
       colSpan: "col-span-1",
     },
   ];
