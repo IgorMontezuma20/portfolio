@@ -117,6 +117,72 @@ export function Testimonials() {
           </div>
         </figcaption>
       </figure>
+      <figure>
+        <FaQuoteLeft className="h-8 w-8 text-gray-600" />
+        <blockquote className="mb-6">
+          <p className="text-2xl text-gray-900">
+            Igor é um desenvolvedor extremamente orientado a metas, busca
+            atingir os objetivos com excelência e pontualidade. Possui alto
+            conhecimento em linguagens de baixo nível, como Java e Kotlin, além
+            de grande capacidade de aprender coisas novas.
+          </p>
+        </blockquote>
+        <figcaption className="flex items-center justify-center gap-2">
+          <img
+            className="h-6 w-6 rounded-full"
+            src="https://media.licdn.com/dms/image/D4D03AQESA46xOYX2_A/profile-displayphoto-shrink_100_100/0/1684712708319?e=1698883200&v=beta&t=NNK6_Fv5sYI-SOreSHvC7Q2p-3yS0rSnwlK1zEseKKc"
+            alt="André Candido Pereira"
+          />
+          <div className="flex items-center font-headline divide-x-2 divide-gray-200">
+            <div className="pr-3 font-medium text-gray-900">
+              <a
+                href="https://www.linkedin.com/in/andre-cpereira/"
+                target="_blank"
+                className="underline hover:text-blue-800"
+              >
+                André Candido Pereira
+              </a>
+            </div>
+            <div className="pl-3 text-sm font-light text-gray-500">
+              via Linkedin
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+      <figure>
+        <FaQuoteLeft className="h-8 w-8 text-gray-600" />
+        <blockquote className="mb-6">
+          <p className="text-2xl text-gray-900">
+            Igor é alguém que se destaca por sua notável competência e
+            habilidades na área de tecnologia. Sua capacidade de absorver novos
+            conhecimentos e aplicá-los de maneira eficaz é verdadeiramente
+            impressionante. Ele não apenas domina várias linguagens de
+            programação e ferramentas tecnológicas, mas também tem uma
+            compreensão profunda das tendências e inovações do setor.
+          </p>
+        </blockquote>
+        <figcaption className="flex items-center justify-center gap-2">
+          <img
+            className="h-6 w-6 rounded-full"
+            src="https://media.licdn.com/dms/image/C4E03AQFf71xBdcL4LA/profile-displayphoto-shrink_100_100/0/1634855485590?e=1698883200&v=beta&t=LbuMz7PlJZrBeuJfGp7x1CkjFur2nNDUz5-kDGNWHbE"
+            alt="Rafael Pererira Vicente"
+          />
+          <div className="flex items-center font-headline divide-x-2 divide-gray-200">
+            <div className="pr-3 font-medium text-gray-900">
+              <a
+                href="https://www.linkedin.com/in/rafael-pereira-vicente-77a321150/"
+                target="_blank"
+                className="underline hover:text-blue-800"
+              >
+                Rafael Pererira Vicente
+              </a>
+            </div>
+            <div className="pl-3 text-sm font-light text-gray-500">
+              via Linkedin
+            </div>
+          </div>
+        </figcaption>
+      </figure>
     </section>
   );
 }

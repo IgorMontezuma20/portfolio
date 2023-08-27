@@ -1,12 +1,12 @@
 import { HiArrowTopRightOnSquare } from "react-icons/hi2";
-import projectPhoto from "../img/Food Commerce.png";
+//import projectPhoto from "../img/Food Commerce.png";
 
 export function Projects() {
   const projects = [
     {
       title: "E-Commerce",
       description:
-        "Sistemas de venda online com o Back-End feito em NestJs, e o Front-End em ReactJS.",
+        "Sistemas de vendas online com o Back-End feito em NestJs, e o Front-End em ReactJS.",
       image:
         "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
       link: "#",
@@ -23,20 +23,38 @@ export function Projects() {
     },
     {
       title: "To-Do",
-      description: "Aplicativo de tarefas construído com ReactJs",
+      description: "Projeto de tarefas construído com ReactJs",
       image:
         "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
-      link: "#",
+      link: "https://lista-de-tarefas-wine.vercel.app/",
+      colSpan: "col-span-1",
+    },
+    {
+      title: "Movie-Flix",
+      description: "Projeto de listagem de filmes em cartaz construído com ReactJs",
+      image:
+        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      link: "https://prime-flix-kappa-umber.vercel.app/",
       colSpan: "col-span-1",
     },
     {
       title: "Food Commerce",
-      description: "Aplicativo de pedidos online construído com ReactJs e NodeJS",
+      description:
+        "Projeto de pedidos online construído com ReactJs e NodeJS",
       image:
-      "https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80",
+        "https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80",
       link: "https://github.com/IgorMontezuma20/food-commerce-react",
       colSpan: "col-span-1",
     },
+    {
+      title: "Lista de Países",
+      description: "Projeto de listagem da países construído em NextJs",
+      image:
+        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      link: "https://lista-de-paises-nextjs.vercel.app/",
+      colSpan: "col-span-1",
+    },
+    
   ];
 
   return (

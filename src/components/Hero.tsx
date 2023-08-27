@@ -24,7 +24,7 @@ export default function Hero() {
             </h2>
 
             <p className="mb-6 text-center text-gray-400 md:text-left">
-              Sou desenvolvedor de software, com mais de 1 ano de experiência em
+              Sou desenvolvedor de software, com experiência em
               desenvolvimento de códigos robustos para negócios de alto volume e
               com habilidade em diversas linguagens e plataformas. Capaz de
               atuar com excelência em projetos de robustos e obter bons

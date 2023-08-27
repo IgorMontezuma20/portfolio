@@ -26,7 +26,12 @@ export function Skills() {
     {
       name: "React.Js",
       icon: "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
-      level: 60,
+      level: 80,
+    },
+    {
+      name: "Angular",
+      icon: "https://www.vectorlogo.zone/logos/angular/angular-icon.svg",
+      level: 80,
     },
     {
       name: "Nest.Js",
@@ -63,8 +68,8 @@ export function Skills() {
             </span>
           </h2>
           <p className="relative text-sm font-headline text-gray-700">
-            Front-end Developer | React.js | React Native | Node.js | TypeScript
-            | JavaScript
+            Front-end Developer | React.js | React Native | Angular | Node.js |
+            TypeScript | JavaScript
           </p>
           <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
         </div>
